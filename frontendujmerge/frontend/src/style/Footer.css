@@ -1,0 +1,107 @@
+.footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 30px 0; /* Reduced padding */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 15px; /* Reduced margin */
+    min-width: 250px;
+}
+
+.footer-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px; /* Reduced margin */
+    color: #f39c12;
+}
+
+.footer-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px; /* Reduced margin */
+}
+
+.footer-section p,
+.footer-section a,
+.footer-section li {
+    font-size: 1rem;
+    color: #b0b0b0;
+    margin-bottom: 8px; /* Reduced margin */
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #ffffff;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px; /* Reduced margin */
+}
+
+.footer-section form {
+    display: flex;
+    margin-top: 5px; /* Reduced margin */
+}
+
+.footer-section form input {
+    padding: 8px; /* Reduced padding */
+    border: none;
+    border-radius: 5px;
+    margin-right: 8px; /* Reduced margin */
+    flex: 1;
+}
+
+.footer-section form button {
+    padding: 8px 16px; /* Reduced padding */
+    border: none;
+    border-radius: 5px;
+    background-color: #f39c12;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.footer-section form button:hover {
+    background-color: #e67e22;
+}
+
+.social-icons {
+    display: flex;
+    grid-template-columns: repeat(2, 1fr); /* Creates two equal columns */
+    gap: 30px; /* Reduced gap */
+}
+
+.social-icons a {
+    color: #b0b0b0;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.social-icons a:hover {
+    color: #f39c12;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 15px 0; /* Reduced padding */
+    border-top: 1px solid #333333;
+    margin-top: 20px; /* Reduced margin */
+    font-size: 0.9rem;
+    color: #b0b0b0;
+}

@@ -1,0 +1,106 @@
+/* CreateJob.css */
+
+/* Container styling */
+.create-job-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .create-job-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Form styling */
+  .create-job-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .create-job-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .create-job-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .create-job-input,
+  .create-job-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .create-job-textarea {
+    resize: vertical;
+    height: 150px;
+  }
+  
+  /* Button styling */
+  .create-job-button {
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .create-job-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .create-job-container {
+      padding: 15px;
+    }
+  
+    .create-job-title {
+      font-size: 20px;
+    }
+  
+    .create-job-input,
+    .create-job-textarea {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .create-job-button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .create-job-container {
+      padding: 10px;
+    }
+  
+    .create-job-title {
+      font-size: 18px;
+    }
+  
+    .create-job-input,
+    .create-job-textarea {
+      font-size: 12px;
+      padding: 6px;
+    }
+  
+    .create-job-button {
+      font-size: 12px;
+      padding: 6px 12px;
+    }
+  }
+  

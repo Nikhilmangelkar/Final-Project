@@ -1,0 +1,85 @@
+/* JobsList.css */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .mb-4 {
+    margin-bottom: 2rem !important;
+  }
+  
+  .position-relative {
+    position: relative;
+  }
+  
+  .search-icon {
+    font-size: 1.5rem;
+    color: #007bff;
+    cursor: pointer;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .form-control-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .form-select {
+    border-radius: 0.5rem;
+    border: 1px solid #ced4da;
+  }
+  
+  .card {
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  
+  .card-body {
+    padding: 1.5rem;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  }
+  
+  .mt-5 {
+    margin-top: 3rem !important;
+  }
+  
+  .text-danger {
+    color: #dc3545 !important;
+  }
+  

@@ -1,0 +1,105 @@
+/* Container */
+.edit-profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.edit-profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #343a40;
+    font-weight: 700;
+}
+
+/* Form Group */
+.edit-profile-form-group {
+    margin-bottom: 15px;
+}
+
+.edit-profile-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #495057;
+}
+
+.edit-profile-form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    transition: border-color 0.2s;
+}
+
+.edit-profile-form-control:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.edit-profile-form-textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Button */
+.edit-profile-btn-primary {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-profile-btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .edit-profile-container {
+        padding: 15px;
+    }
+
+    .edit-profile-form-control {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .edit-profile-btn-primary {
+        padding: 12px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .edit-profile-container {
+        padding: 10px;
+    }
+
+    .edit-profile-header {
+        font-size: 20px;
+    }
+
+    .edit-profile-form-control {
+        font-size: 14px;
+        padding: 7px;
+    }
+
+    .edit-profile-btn-primary {
+        padding: 10px;
+        font-size: 15px;
+    }
+}

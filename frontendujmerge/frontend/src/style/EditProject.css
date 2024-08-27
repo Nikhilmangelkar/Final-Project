@@ -1,0 +1,101 @@
+/* Container */
+.edit-project-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.edit-project-header {
+  margin-top: 0;
+  font-size: 28px;
+  color: #343a40;
+  text-align: center;
+}
+
+/* Form */
+.edit-project-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form Group */
+.edit-project-form-group {
+  margin-bottom: 20px;
+}
+
+.edit-project-form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #495057;
+}
+
+.edit-project-form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.edit-project-form-textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Button */
+.edit-project-submit-btn {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.edit-project-submit-btn:hover {
+  background-color: #388e3c;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .edit-project-container {
+      padding: 15px;
+  }
+
+  .edit-project-form-control {
+      font-size: 14px;
+      padding: 8px;
+  }
+
+  .edit-project-submit-btn {
+      padding: 10px 15px;
+      font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .edit-project-container {
+      padding: 10px;
+  }
+
+  .edit-project-header {
+      font-size: 24px;
+  }
+
+  .edit-project-form-control {
+      font-size: 14px;
+      padding: 7px;
+  }
+
+  .edit-project-submit-btn {
+      padding: 8px 12px;
+      font-size: 14px;
+  }
+}

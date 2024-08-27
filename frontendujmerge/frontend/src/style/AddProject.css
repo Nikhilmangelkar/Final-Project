@@ -1,0 +1,111 @@
+/* Main Container */
+.add-project-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.add-project-container:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem; /* Responsive font size */
+    font-weight: 700;
+    color: #333;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 1.5rem; /* Spacing for better readability */
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #495057;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+textarea.form-control {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Button */
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.02); /* Slight scale effect on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .header {
+        font-size: 1.75rem; /* Adjust header size for smaller screens */
+    }
+
+    .form-group {
+        margin-bottom: 1rem; /* Reduced spacing on smaller screens */
+    }
+
+    .form-control {
+        font-size: 0.95rem; /* Slightly smaller font for inputs on smaller screens */
+    }
+
+    .submit-button {
+        font-size: 0.95rem; /* Adjust button font size */
+    }
+}
+
+@media (max-width: 576px) {
+    .add-project-container {
+        padding: 15px; /* Less padding on very small screens */
+    }
+
+    .header {
+        font-size: 1.5rem; /* Further reduced header size */
+    }
+
+    .form-control {
+        padding: 0.5rem; /* Less padding for inputs */
+    }
+
+    .submit-button {
+        font-size: 0.9rem; /* Smaller button font size */
+    }
+}

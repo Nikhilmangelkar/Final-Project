@@ -1,0 +1,120 @@
+INSERT INTO Users (UserId, Email, Password, Role, CreatedAt, UpdatedAt, ProfilePicture)
+VALUES 
+(4, 'jane.smith@example.com', 'password456', 'JobSeeker', '2024-08-04 10:00:00', '2024-08-04 10:00:00', NULL),
+
+(5, 'alice.johnson@example.com', 'password789', 'JobSeeker', '2024-08-04 15:20:00', '2024-08-04 15:20:00', NULL),
+
+(6, 'michael.brown@example.com', 'securepassword123', 'JobSeeker', '2024-08-05 09:30:00', '2024-08-05 09:30:00', NULL),
+
+(7, 'emily.davis@example.com', 'passwordabc', 'JobSeeker', '2024-08-05 13:45:00', '2024-08-05 13:45:00', NULL),
+
+(8, 'daniel.wilson@example.com', 'passworddef', 'JobSeeker', '2024-08-06 11:00:00', '2024-08-06 11:00:00', NULL),
+
+(9, 'sophia.martinez@example.com', 'passwordghi', 'JobSeeker', '2024-08-06 17:25:00', '2024-08-06 17:25:00', NULL),
+
+(10, 'david.garcia@example.com', 'passwordjkl', 'JobSeeker', '2024-08-07 08:10:00', '2024-08-07 08:10:00', NULL),
+
+(11, 'olivia.lee@example.com', 'passwordmno', 'JobSeeker', '2024-08-07 14:40:00', '2024-08-07 14:40:00', NULL),
+
+(12, 'chris.taylor@example.com', 'passwordpqr', 'JobSeeker', '2024-08-08 09:50:00', '2024-08-08 09:50:00', NULL),
+
+(13, 'mia.anderson@example.com', 'passwordstu', 'JobSeeker', '2024-08-08 16:30:00', '2024-08-08 16:30:00', NULL);
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO JobSeekers (JobSeekerId, FirstName, LastName, Description, Skills, Resume, CreatedAt, UpdatedAt)
+VALUES 
+(2, 'Jane', 'Smith', 'Passionate data scientist with a knack for problem-solving.', 'Python, R, Machine Learning', 'http://example.com/resume_jane.pdf', '2024-08-04 10:00:00', '2024-08-04 10:00:00'),
+
+(4, 'Alice', 'Johnson', 'Creative graphic designer with experience in branding and web design.', 'Photoshop, Illustrator, UX/UI', 'http://example.com/resume_alice.pdf', '2024-08-04 15:20:00', '2024-08-04 15:20:00'),
+
+(5, 'Michael', 'Brown', 'Experienced project manager specializing in agile methodologies.', 'Project Management, Agile, Scrum', 'http://example.com/resume_michael.pdf', '2024-08-05 09:30:00', '2024-08-05 09:30:00'),
+
+(6, 'Emily', 'Davis', 'Full-stack developer with expertise in modern web technologies.', 'JavaScript, React, Node.js', 'http://example.com/resume_emily.pdf', '2024-08-05 13:45:00', '2024-08-05 13:45:00'),
+
+(7, 'Daniel', 'Wilson', 'Marketing expert with a focus on digital strategies and social media.', 'SEO, Content Marketing, Social Media', 'http://example.com/resume_daniel.pdf', '2024-08-06 11:00:00', '2024-08-06 11:00:00'),
+
+(8, 'Sophia', 'Martinez', 'HR specialist with experience in recruitment and employee relations.', 'Recruitment, Employee Relations, HR Policies', 'http://example.com/resume_sophia.pdf', '2024-08-06 17:25:00', '2024-08-06 17:25:00'),
+
+(9, 'David', 'Garcia', 'Software engineer with a passion for developing scalable web applications.', 'Java, Spring Boot, Microservices', 'http://example.com/resume_david.pdf', '2024-08-07 08:10:00', '2024-08-07 08:10:00'),
+
+(10, 'Olivia', 'Lee', 'UX/UI designer with a focus on creating intuitive and user-friendly interfaces.', 'UX Design, UI Design, Wireframing', 'http://example.com/resume_olivia.pdf', '2024-08-07 14:40:00', '2024-08-07 14:40:00'),
+
+(11, 'Chris', 'Taylor', 'Data analyst with strong analytical skills and attention to detail.', 'SQL, Excel, Tableau', 'http://example.com/resume_chris.pdf', '2024-08-08 09:50:00', '2024-08-08 09:50:00'),
+
+(12, 'Mia', 'Anderson', 'Content writer with experience in creating engaging and SEO-friendly content.', 'Content Writing, SEO, Copywriting', 'http://example.com/resume_mia.pdf', '2024-08-08 16:30:00', '2024-08-08 16:30:00');
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO Employers (EmployerId, CompanyName, CompanyDescription, CreatedAt, UpdatedAt)
+VALUES 
+(3, 'InnoSoft Solutions', 'A cutting-edge software company specializing in innovative solutions.', '2024-08-04 10:15:00', '2024-08-04 10:15:00'),
+
+(4, 'Creative Designs', 'A design agency focused on creating visually stunning branding and marketing materials.', '2024-08-04 14:25:00', '2024-08-04 14:25:00'),
+
+(5, 'Global Finance Corp', 'A financial services company providing global investment and wealth management solutions.', '2024-08-05 09:45:00', '2024-08-05 09:45:00'),
+
+(6, 'Green Energy Inc.', 'A renewable energy company dedicated to developing sustainable power solutions.', '2024-08-05 12:30:00', '2024-08-05 12:30:00'),
+
+(7, 'HealthCare Plus', 'A healthcare provider offering comprehensive medical and wellness services.', '2024-08-06 11:05:00', '2024-08-06 11:05:00'),
+
+(8, 'EduTech Innovations', 'An educational technology company creating innovative learning tools and platforms.', '2024-08-06 15:50:00', '2024-08-06 15:50:00'),
+
+(9, 'Retail Solutions', 'A retail management company specializing in optimizing store operations and customer experiences.', '2024-08-07 08:20:00', '2024-08-07 08:20:00'),
+
+(10, 'LogiTrans Systems', 'A logistics and transportation company focused on efficient supply chain management.', '2024-08-07 13:10:00', '2024-08-07 13:10:00'),
+
+(11, 'MediPharma Ltd.', 'A pharmaceutical company engaged in the research and development of new medicines.', '2024-08-08 10:40:00', '2024-08-08 10:40:00'),
+
+(12, 'FutureTech AI', 'An artificial intelligence company leading advancements in machine learning and automation.', '2024-08-08 16:30:00', '2024-08-08 16:30:00');
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO Jobs (JobId, EmployerId, JobTitle, JobDescription, Location, Salary, JobType, ExperienceLevel, Industry, CreatedAt, UpdatedAt)
+VALUES
+(5, 3, 'Project Manager', 'Oversee software projects from initiation to completion, ensuring timely delivery.', 'New York, NY', 90000.00, 'Full-time', 'Mid-level', 'Technology', '2024-08-04 09:00:00', '2024-08-04 09:00:00'),
+
+(6, 4, 'Graphic Designer', 'Create visually appealing graphics and layouts for various marketing materials.', 'Los Angeles, CA', 65000.00, 'Part-time', 'Entry-level', 'Design', '2024-08-04 14:20:00', '2024-08-04 14:20:00'),
+
+(7, 5, 'Financial Analyst', 'Analyze financial data and trends to provide strategic insights and recommendations.', 'Chicago, IL', 80000.00, 'Full-time', 'Mid-level', 'Finance', '2024-08-05 10:30:00', '2024-08-05 10:30:00'),
+
+(8, 6, 'Energy Consultant', 'Advise clients on renewable energy options and sustainability practices.', 'Austin, TX', 95000.00, 'Full-time', 'Senior', 'Energy', '2024-08-05 15:15:00', '2024-08-05 15:15:00'),
+
+(9, 7, 'Nurse Practitioner', 'Provide healthcare services and patient care, specializing in family medicine.', 'Boston, MA', 110000.00, 'Full-time', 'Senior', 'Healthcare', '2024-08-06 08:45:00', '2024-08-06 08:45:00'),
+
+(10, 8, 'Education Coordinator', 'Develop and coordinate educational programs and activities.', 'Seattle, WA', 70000.00, 'Full-time', 'Mid-level', 'Education', '2024-08-06 13:30:00', '2024-08-06 13:30:00'),
+
+(11, 9, 'Retail Store Manager', 'Manage daily operations of a retail store, ensuring excellent customer service.', 'Miami, FL', 60000.00, 'Full-time', 'Mid-level', 'Retail', '2024-08-07 11:00:00', '2024-08-07 11:00:00'),
+
+(12, 10, 'Logistics Coordinator', 'Coordinate and manage logistics operations, ensuring efficient supply chain management.', 'Dallas, TX', 75000.00, 'Full-time', 'Entry-level', 'Logistics', '2024-08-07 16:20:00', '2024-08-07 16:20:00'),
+
+(13, 11, 'Pharmaceutical Sales Representative', 'Promote and sell pharmaceutical products to healthcare providers.', 'Philadelphia, PA', 85000.00, 'Full-time', 'Mid-level', 'Pharmaceutical', '2024-08-08 09:40:00', '2024-08-08 09:40:00'),
+
+(14, 12, 'AI Research Scientist', 'Conduct research in artificial intelligence and machine learning to develop innovative solutions.', 'San Francisco, CA', 130000.00, 'Full-time', 'Senior', 'Technology', '2024-08-08 14:10:00', '2024-08-08 14:10:00');
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO Applications (ApplicationId, JobId, JobSeekerId, Status, CoverLetter, CreatedAt, UpdatedAt)
+VALUES 
+(5, 5, 3, 'Pending', 'I am excited about this opportunity and believe my skills will contribute to your team.', '2024-08-04 09:00:00', '2024-08-04 09:00:00'),
+
+(6, 6, 2, 'Accepted', 'My experience aligns well with the role and I am confident I can bring value.', '2024-08-04 14:20:00', '2024-08-04 14:20:00'),
+
+(7, 7, 4, 'Pending', 'I am eager to apply my financial expertise to your organization.', '2024-08-05 10:30:00', '2024-08-05 10:30:00'),
+
+(8, 8, 5, 'Rejected', 'I am enthusiastic about contributing to your energy initiatives.', '2024-08-05 15:15:00', '2024-08-05 15:15:00'),
+
+(9, 9, 6, 'Pending', 'My healthcare background aligns well with your needs, and I am excited about this opportunity.', '2024-08-06 08:45:00', '2024-08-06 08:45:00'),
+
+(10, 10, 7, 'Accepted', 'I am passionate about educational programs and confident I can make a positive impact.', '2024-08-06 13:30:00', '2024-08-06 13:30:00'),
+
+(11, 11, 8, 'Pending', 'I am interested in leveraging my retail experience in this role.', '2024-08-07 11:00:00', '2024-08-07 11:00:00'),
+
+(12, 12, 9, 'Rejected', 'I am enthusiastic about this logistics role and confident in my ability to contribute.', '2024-08-07 16:20:00', '2024-08-07 16:20:00'),
+
+(13, 13, 10, 'Pending', 'I am excited about the opportunity to promote your pharmaceutical products.', '2024-08-08 09:40:00', '2024-08-08 09:40:00'),
+
+(14, 14, 11, 'Accepted', 'My AI research background aligns perfectly with your company’s innovative focus.', '2024-08-08 14:10:00', '2024-08-08 14:10:00');
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
